@@ -1,0 +1,26 @@
+// @import "fonts";
+
+    body {
+    background-color: #facefa;
+        // font-family: cormorantUpright;
+        // font-size: 50px;
+        span {
+            color: #d42fd4;;
+        }
+    background: url("@img/cover.jpg") 0 0 no-repeat;
+    }
+
+    @media (max-width: 768px) {
+        span {
+            color: #1d051d;
+        }
+    }
+
+    @media (max-width: 768px) {
+        body {
+            background-color: #0a07a3;
+        }
+    }
+
+
+    
